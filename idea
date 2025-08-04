@@ -1,0 +1,3 @@
+#!/bin/sh
+# Only use this if you are running wayland
+./result/bin/idea-community -Dawt.toolkit.name=WLToolkit
