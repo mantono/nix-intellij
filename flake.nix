@@ -118,7 +118,7 @@
         # This lets you run 'nix run' to start IntelliJ directly
         apps.default = {
           type = "app";
-          program = "${pkgs.jetbrains.idea-community-bin}/bin/idea-community";
+          program = "${pkgs.jetbrains.idea-community-bin}/bin/idea-community -Dawt.toolkit.name=WLToolkit";
         };
       });
 }
